@@ -99,7 +99,7 @@ header {
     right: 10px;
   }
 
-  @media screen and (max-width:390px) {
+  @media screen and (max-width:576px) {
     .zag{
       font-size:20px;
 }
