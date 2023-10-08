@@ -100,15 +100,22 @@ header {
   }
 
   @media screen and (max-width:576px) {
+    .glav{
+      left: 40%;
+    }
+   
     .zag{
-      font-size:20px;
+      font-size:25px;
+      
 }
 .slider {
-  width: 150px;
-  height: 75px;
+  width: 185px;
+  height: 300px;
+  left: 50%;
+  top: 25%;
 }
 .text h1{
-font-size: 10px;
+font-size: 13px;
 
 }
 .oz{
@@ -116,9 +123,10 @@ font-size: 6px;
 
 }
 .text p{
-font-size: 7px;
+font-size: 14px;
 }
 .text{
-  top: 23%;
+  top: 20%;
 }
+
   }
