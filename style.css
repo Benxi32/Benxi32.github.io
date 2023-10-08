@@ -99,7 +99,26 @@ header {
     right: 10px;
   }
 
-  @media screen and (max-width:998px) {
-    
- 
+  @media screen and (max-width:576px) {
+    .zag{
+      font-size:28px;
 }
+.slider {
+  width: 200px;
+  height: 100px;
+}
+.text h1{
+font-size: 15px;
+
+}
+.oz{
+font-size: 6px;
+
+}
+.text p{
+font-size: 10px;
+}
+.text{
+  top: 25%;
+}
+  }
