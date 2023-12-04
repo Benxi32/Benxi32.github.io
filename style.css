@@ -99,6 +99,37 @@ header {
     right: 10px;
   }
 
+  @media screen and (max-width:1366px) {
+    .slider {
+      width: 600px;
+      height: 400px;
+      left: 50%;
+      top: 30%;
+    }
+    .glav{
+      left: 45%;
+      top: 10%;
+    }
+   
+    .zag{
+      font-size:45px;   
+}
+.text h1{
+  font-size: 30px;
+  }
+  .oz{
+  font-size: 25px;
+  
+  }
+  .text p{
+  font-size: 20px;
+  }
+  .text{
+    top: 30%;
+  }
+  
+    }
+
   @media screen and (max-width:576px) {
     .glav{
       left: 40%;
