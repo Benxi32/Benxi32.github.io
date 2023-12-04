@@ -13,31 +13,33 @@ header {
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
-.gorod{
-	text-decoration: none;
-	color: #00D4C6;
-	font-family: 'Quicksand', sans-serif;
+input[type='checkbox']{
+	display: none;
 }
-.gorod:hover{
-	color: #c7bfbf;
+.popup{
+display: none;
+width: 400px;
+height: 200px;
+background: wheat;
+position: absolute;
+top: 40%;
+left: 35%;
 }
-.goroda1{
-    position: absolute;
-    font-size:  44px;
-    left: 37%;
-    top:30%;
+.pen{
+	position: absolute;
+	top: 90%;
+	left: 90%;
 }
-.goroda2{
-    position: absolute;
-    font-size: 44px;
-    left: 57%;
-    top:40%;
+.label{
+	color: crimson;
+	background: #c7c7c7;
+	display: inline-block;
+	top: 30%;
+	padding: 10px 20px;
+	transition: 0.2s;
 }
-.goroda3{
-    position: absolute;
-    font-size: 44px;
-    left: 77%;
-    top:50%;
+input:checked ~ .popup{
+	display: block;
 }
 .glav{
     position: absolute;
@@ -47,12 +49,17 @@ header {
 	width: 50%;
 	margin: 0 auto;
 	top: 7%;
-	left: 70%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	color: #fff;
 }
+.pic img {
+	position: absolute;
+	top: 25%;
+	left: 60%;
+}
 .zag{
-        font-size: 50px;
+        font-size: 40px;
         font-family: 'Quicksand', sans-serif;
         color: #00D4C6;
 }
@@ -86,35 +93,4 @@ header {
 .oz:hover{
     background: #00D4C6;
 	color: #fff;
-}
-@media screen and (max-width:1366px) {
-	.goroda1{
-		font-size:  37px;
-		left: 30%;
-		top:30%;
-	}
-	.goroda2{
-		font-size: 37px;
-		left: 50%;
-		top:40%;
-	}
-	.goroda3{
-		font-size: 37px;
-		left: 72%;
-		top:50%;
-	}
-	.text{
-		top: 35%;
-		left: 3%;
-		width: 35%;
-	}
-	.text p{
-		color: #c7c7c7;
-		font-size: 20px;
-	}
-	.text h1{
-		margin: 0;
-		font-size: 30px;
-		color: #fff;
-	}
 }
