@@ -16,12 +16,17 @@ header {
 input[type='checkbox']{
 	display: none;
 }
+input[type='checkbox']{
+	display: none;
+}
 .popup{
 display: none;
 width: 400px;
 height: 200px;
-background: wheat;
+background: rgba(4, 69, 94, 0.63);
 position: absolute;
+text-align: center;
+color: #cada71;
 top: 40%;
 left: 35%;
 }
@@ -29,6 +34,7 @@ left: 35%;
 	position: absolute;
 	top: 90%;
 	left: 90%;
+	color: #00D4C6;
 }
 .label{
 	color: crimson;
@@ -40,18 +46,6 @@ left: 35%;
 }
 input:checked ~ .popup{
 	display: block;
-}
-.glav{
-    position: absolute;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 50%;
-	margin: 0 auto;
-	top: 7%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: #fff;
 }
 .pic img {
 	position: absolute;
