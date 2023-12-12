@@ -16,12 +16,17 @@ header {
 input[type='checkbox']{
 	display: none;
 }
+input[type='checkbox']{
+	display: none;
+}
 .popup{
 display: none;
 width: 400px;
 height: 200px;
-background: wheat;
+background: rgba(4, 69, 94, 0.63);
 position: absolute;
+text-align: center;
+color: #cada71;
 top: 40%;
 left: 35%;
 }
@@ -29,6 +34,7 @@ left: 35%;
 	position: absolute;
 	top: 90%;
 	left: 90%;
+	color: #00D4C6;
 }
 .label{
 	color: crimson;
