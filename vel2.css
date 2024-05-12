@@ -16,19 +16,36 @@ header {
 input[type='checkbox']{
 	display: none;
 }
+.yakarta{
+	margin-top: 80px;
+	margin-left: -560px;
+}
 .popup{
 display: none;
 width: 400px;
 height: 200px;
-background: wheat;
+background: rgba(4, 69, 94, 0.63);
 position: absolute;
+text-align: center;
+color: #cada71;
 top: 40%;
 left: 35%;
+transform: translateX(-150%);
+  animation: ani 1s forwards;
+}
+
+@keyframes ani {
+  0% {transform: translateX(-150%);}
+  100% {transform: translateY(0);}
+}
+.popup p{
+	margin-top: 20%;
 }
 .pen{
 	position: absolute;
 	top: 90%;
 	left: 90%;
+	color: #000000;
 }
 .label{
 	color: crimson;
@@ -53,6 +70,11 @@ input:checked ~ .popup{
 	transform: translate(-50%, -50%);
 	color: #fff;
 }
+.pic img {
+	position: absolute;
+	top: 25%;
+	left: 60%;
+}
 .zag{
         font-size: 40px;
         font-family: 'Quicksand', sans-serif;
@@ -63,11 +85,6 @@ input:checked ~ .popup{
 	left: 6%;
 	width: 35%;
 	position: absolute;
-}
-.pic img {
-	position: absolute;
-	top: 25%;
-	left: 60%;
 }
 .text p{
     color: #c7c7c7;

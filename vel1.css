@@ -16,8 +16,9 @@ header {
 input[type='checkbox']{
 	display: none;
 }
-input[type='checkbox']{
-	display: none;
+.yakarta{
+	margin-top: 80px;
+	margin-left: -560px;
 }
 .popup{
 display: none;
@@ -29,6 +30,16 @@ text-align: center;
 color: #cada71;
 top: 40%;
 left: 35%;
+transform: translateX(-150%);
+  animation: ani 1s forwards;
+}
+
+@keyframes ani {
+  0% {transform: translateX(-150%);}
+  100% {transform: translateY(0);}
+}
+.popup p{
+	margin-top: 20%;
 }
 .pen{
 	position: absolute;
